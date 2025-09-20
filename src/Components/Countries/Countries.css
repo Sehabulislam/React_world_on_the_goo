@@ -1,7 +1,14 @@
 .countries{
-    background: #2A7B9B;
-    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgb(76, 168, 230) 100%);
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
+}
+.countries-container{
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgb(76, 168, 230) 100%);
+}
+.visited-flag-container img{
+    width: 150px;
+    margin-right: 10px;
+    margin-bottom: 5px;
 }
